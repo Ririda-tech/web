@@ -1,0 +1,79 @@
+/*MARK DEFAULT*/
+body {font-family: monospace;
+    margin: 0px;
+    padding: 0px;
+}  
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(kodok.jpg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+header{
+    background-color: #DDFFBB;
+    color: lightslategrey;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+label{
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #b4c5a8;
+}
+
+button{
+    background-color: #C7E9B0;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: #B3C99C;
+}
+
+button:active{
+    transform: translateY(2px);
+    background-color: #A4BC92;
+}
+
+/*MARK ID*/
+#inputfield {
+    outline: none;
+    font-size: 18px;
+    border-radius: 6px;
+    border: solid  #C7E9B0;;
+    padding: 10px;
+}
+#inputfield:focus{
+    border-color: #B3C99C;
+}
+
+/*MARK CLASS*/
+.InputSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.inputbuttonsection{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
